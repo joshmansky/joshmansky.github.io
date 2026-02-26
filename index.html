@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josh Mansky | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="nav-inner">
+        <a class="brand" href="index.html">Josh Mansky</a>
+        <button class="menu-toggle" type="button" data-menu-toggle>Menu</button>
+        <nav class="site-nav" data-nav-links>
+          <a href="index.html" data-page-link="home">Home</a>
+          <a href="research.html" data-page-link="research">Research</a>
+          <a href="projects.html" data-page-link="projects">Projects</a>
+          <a href="blog.html" data-page-link="blog">Blog</a>
+          <a href="cv.html" data-page-link="cv">CV</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>
+          <span data-theme-icon>Mode</span>
+          <span data-theme-label>Light</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="home-gallery">
+        <section class="panel hero-panel">
+          <figure class="headshot-wrap">
+            <img src="headshot.jpg" alt="Headshot of Josh Mansky" />
+          </figure>
+          <div class="hero-copy">
+            <h1 class="gradient-text">Josh Mansky</h1>
+            <p class="subtitle">M.S. ECE @ Purdue</p>
+            <div class="dot-list" aria-label="Core interests">
+              <span>generative modeling</span>
+              <span>perception</span>
+              <span>visual reasoning</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel stack">
+          <h2 class="section-title">About Me</h2>
+
+          <div class="content-block">
+            <p>
+              I am currently an M.S. student at Purdue focused on transforming easily capturable media into metrically
+              and physically accurate, editable, and interactible 3D mesh-based simulations. My goal is to digitize
+              indoor environments in ways that improve the data robots use to understand and reason about the world.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <h3>Research Interests</h3>
+            <ul class="interest-list">
+              <li>
+                <strong>Generative modeling:</strong> building controllable models that can synthesize plausible scene
+                geometry, appearance, and dynamics from limited observations.
+              </li>
+              <li>
+                <strong>Perception:</strong> improving how robotic systems infer structure, object properties, and
+                uncertainty from real-world visual input.
+              </li>
+              <li>
+                <strong>Visual reasoning:</strong> connecting perception to higher-level scene understanding for
+                grounded decision-making and interaction in 3D environments.
+              </li>
+            </ul>
+          </div>
+
+          <div class="content-block">
+            <h3>Background</h3>
+            <p>
+              I previously earned my B.S. in Computer Engineering at Purdue, where I worked in the VAA and VIPER
+              labs. I am currently the Co-Founder of UpLiv Technologies.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <h3>Beyond Work</h3>
+            <p>
+              Outside of work, I enjoy hockey, golf, and soccer, competing in powerlifting competitions, and playing
+              the piano.
+            </p>
+          </div>
+
+          <div class="content-block">
+            <h3>Connect</h3>
+            <div class="social-links">
+              <a href="https://github.com/joshmansky" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/joshmansky" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="mailto:jmansky@purdue.edu">Email</a>
+              <a href="https://scholar.google.com/scholar?q=Josh+Mansky" target="_blank" rel="noopener noreferrer"
+                >Google Scholar</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="panel stack">
+          <h2 class="section-title">Research</h2>
+          <article class="research-card">
+            <p><strong>WACV26_Paper</strong></p>
+            <p class="authors">
+              Authors: <span class="author-highlight">Josh Mansky</span>, collaborators
+            </p>
+            <span class="status-tag">Status: WACV 2026</span>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="WACV26_Pub/WACV26_paper.pdf" target="_blank" rel="noopener noreferrer"
+                >Paper</a
+              >
+              <a class="btn btn-secondary" href="research.html">Research Page</a>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel stack">
+          <h2 class="section-title">Projects</h2>
+          <div class="card-grid">
+            <article class="project-card">
+              <h3>Drone Delivery</h3>
+              <p>Autonomy and navigation stack work for delivery-style robotic flight tasks.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects/drone-delivery.html">View Media</a>
+                <a
+                  class="btn btn-secondary"
+                  href="https://github.com/joshmansky/Drone_Delivery"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>Boiler Robotics</h3>
+              <p>Hands-on robotic platform design, controls, and hardware integration.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects/boiler-robotics.html">View Media</a>
+                <a
+                  class="btn btn-secondary"
+                  href="https://github.com/joshmansky/Boiler_Robotics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>Notebook for Agents</h3>
+              <p>Agent-focused tooling and workflow experiments for notebook-style environments.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects/notebook-for-agents.html">View Media</a>
+                <a
+                  class="btn btn-secondary"
+                  href="https://github.com/joshmansky/Notebook_for_Agents"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>MaterialPalette Reimplementation</h3>
+              <p>Reimplementation and analysis of MaterialPalette methods and results.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects/materialpalette-reimplementation.html">View Media</a>
+                <a
+                  class="btn btn-secondary"
+                  href="https://github.com/joshmansky/MaterialPalette_Reimplementation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <h3>DETR Reimplementation</h3>
+              <p>A practical DETR reproduction with implementation notes and evaluation takeaways.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="projects/detr-reimplementation.html">View Media</a>
+                <a
+                  class="btn btn-secondary"
+                  href="https://github.com/joshmansky/DETR_Reimplementation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Find me on:</p>
+        <div class="social-links">
+          <a href="https://github.com/joshmansky" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/joshmansky" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:jmansky@purdue.edu">Email</a>
+          <a href="https://scholar.google.com/scholar?q=Josh+Mansky" target="_blank" rel="noopener noreferrer"
+            >Google Scholar</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="site.js"></script>
+  </body>
+</html>
