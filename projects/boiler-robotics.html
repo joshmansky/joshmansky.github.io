@@ -24,9 +24,8 @@
           <a href="../blog.html" data-page-link="blog">Blog</a>
           <a href="../cv.html" data-page-link="cv">CV</a>
         </nav>
-        <button class="theme-toggle" type="button" data-theme-toggle>
-          <span data-theme-icon>Mode</span>
-          <span data-theme-label>Light</span>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color mode">
+          <span data-theme-icon aria-hidden="true">🌙</span>
         </button>
       </div>
     </header>
@@ -38,6 +37,20 @@
       </section>
 
       <section class="panel stack">
+        <article class="media-card">
+          <h3>Boiler Robotics YouTube Video</h3>
+          <p>Embedded project video.</p>
+        </article>
+        <div class="media-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/6gI7feVyyC8"
+            title="Boiler Robotics YouTube Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
         <article class="media-card">
           <h3>Joystick-Controlled Arm Motion</h3>
           <p>Mechanical and control performance during live arm operation.</p>
@@ -66,13 +79,23 @@
     <footer class="site-footer">
       <div class="footer-inner">
         <p>Find me on:</p>
-        <div class="social-links">
-          <a href="https://github.com/joshmansky" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/joshmansky" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:jmansky@purdue.edu">Email</a>
-          <a href="https://scholar.google.com/scholar?q=Josh+Mansky" target="_blank" rel="noopener noreferrer"
-            >Google Scholar</a
-          >
+        <div class="social-links" aria-label="Social media links">
+          <a class="icon-link" href="https://github.com/joshmansky" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12.3c0 5.2 3.3 9.6 7.9 11.1.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.4-3.9-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.9 1.4 3.6 1.1.1-.8.4-1.4.8-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.3 11.3 0 0 1 6.2 0c2.3-1.6 3.4-1.2 3.4-1.2.7 1.7.2 2.9.1 3.2.8.9 1.2 2 1.2 3.3 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1 .8 2.1v3.1c0 .3.2.8.8.6a11.5 11.5 0 0 0 7.9-11.1A11.5 11.5 0 0 0 12 .5z"/></svg>
+            <span class="sr-only">GitHub</span>
+          </a>
+          <a class="icon-link" href="mailto:jmansky@purdue.edu" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+            <span class="sr-only">Email</span>
+          </a>
+          <a class="icon-link" href="https://www.linkedin.com/in/joshmansky" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.03-1.84-3.03-1.85 0-2.13 1.45-2.13 2.94v5.66H9.36V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28zM5.34 7.43A2.07 2.07 0 1 1 5.33 3.3a2.07 2.07 0 0 1 .01 4.13zM7.12 20.45H3.55V9h3.57v11.45z"/></svg>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+          <a class="icon-link" href="https://scholar.google.com/scholar?q=Josh+Mansky" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5-10-5z"></path><path d="M4 10v5"></path><path d="M8 12.1V17l4 3 4-3v-4.9"></path></svg>
+            <span class="sr-only">Google Scholar</span>
+          </a>
         </div>
       </div>
     </footer>
