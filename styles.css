@@ -493,6 +493,10 @@ a {
   min-height: 460px;
 }
 
+.media-wrap.pdf-embed iframe {
+  min-height: 980px;
+}
+
 .social-links {
   display: flex;
   flex-wrap: wrap;
@@ -612,6 +616,10 @@ a {
 
   .media-wrap iframe {
     min-height: 340px;
+  }
+
+  .media-wrap.pdf-embed iframe {
+    min-height: 680px;
   }
 
   .dot-list {
