@@ -394,6 +394,13 @@ a {
   color: var(--text-muted);
 }
 
+.equal-contribution-note {
+  margin-top: -0.35rem;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
 .author-highlight {
   color: var(--accent-2);
   font-weight: 700;
